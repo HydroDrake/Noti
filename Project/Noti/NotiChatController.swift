@@ -34,7 +34,7 @@ class NotiChatController: JSQMessagesViewController{
     
     private func setupIncomingBubble() -> JSQMessagesBubbleImage {
         let bubbleImageFactory = JSQMessagesBubbleImageFactory()
-        return bubbleImageFactory!.incomingMessagesBubbleImage(with: UIColor.jsq_messageBubbleLightGray())
+        return bubbleImageFactory!.incomingMessagesBubbleImage(with: UIColor(red:0.17, green:0.74, blue:0.90, alpha:1.0))
     }
     
     override func viewDidLoad() {
