@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3607406E0BC819B469C2AD97 /* Pods_Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AD555A283EA585E27402A6 /* Pods_Noti.framework */; };
+		5E7F31081DF7E34400C38948 /* 22notice.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E7F31061DF7E34400C38948 /* 22notice.png */; };
+		5E7F31091DF7E34400C38948 /* 22search.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E7F31071DF7E34400C38948 /* 22search.png */; };
 		8E20D6281DD1ACAC00E0DBE7 /* ChannelAddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E20D6271DD1ACAC00E0DBE7 /* ChannelAddController.swift */; };
 		9104CDBE1DD2F4AE008AF98D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104CDBD1DD2F4AE008AF98D /* SignUpViewController.swift */; };
 		9156C0F31DD191EC0068EDD5 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9156C0F21DD191EC0068EDD5 /* Channel.swift */; };
@@ -49,6 +51,8 @@
 /* Begin PBXFileReference section */
 		2A4C3A5D1A78A34CBA4F4E95 /* Pods-NotiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotiTests/Pods-NotiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F842B39EEB54A895092C5D6 /* Pods_NotiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7F31061DF7E34400C38948 /* 22notice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22notice.png; sourceTree = "<group>"; };
+		5E7F31071DF7E34400C38948 /* 22search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22search.png; sourceTree = "<group>"; };
 		6DF6AF2C9AF3C841E877E609 /* Pods-Noti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noti/Pods-Noti.debug.xcconfig"; sourceTree = "<group>"; };
 		8192B598C20EA3B8AA0DC260 /* Pods-NotiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotiTests/Pods-NotiTests.release.xcconfig"; sourceTree = "<group>"; };
 		8E20D6271DD1ACAC00E0DBE7 /* ChannelAddController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelAddController.swift; sourceTree = "<group>"; };
@@ -165,6 +169,8 @@
 				91EB299A1DB76E6700D3E1F8 /* Assets.xcassets */,
 				91EB299C1DB76E6700D3E1F8 /* LaunchScreen.storyboard */,
 				91EB299F1DB76E6700D3E1F8 /* Info.plist */,
+				5E7F31061DF7E34400C38948 /* 22notice.png */,
+				5E7F31071DF7E34400C38948 /* 22search.png */,
 				91EB29C21DB76EA400D3E1F8 /* ContentParser.mm */,
 				91EB29C41DB7703100D3E1F8 /* ContentParser.cpp */,
 				91EB29C51DB7703100D3E1F8 /* ContentParser.hpp */,
@@ -333,6 +339,8 @@
 				91EB299E1DB76E6700D3E1F8 /* LaunchScreen.storyboard in Resources */,
 				91EB29C81DB7843000D3E1F8 /* GoogleService-Info.plist in Resources */,
 				91EB299B1DB76E6700D3E1F8 /* Assets.xcassets in Resources */,
+				5E7F31091DF7E34400C38948 /* 22search.png in Resources */,
+				5E7F31081DF7E34400C38948 /* 22notice.png in Resources */,
 				91EB29991DB76E6700D3E1F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

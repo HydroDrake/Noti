@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -215,7 +215,7 @@
                                 <rect key="frame" x="0.0" y="61" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2oc-f3-s9p" id="31C-gO-8e6">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWE-oM-rl8">
@@ -320,11 +320,11 @@
             </objects>
             <point key="canvasLocation" x="785" y="90"/>
         </scene>
-        <!--Item-->
+        <!--공지방-->
         <scene sceneID="Jbe-c7-v4Z">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zUs-tV-7p6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="hL4-HL-IwT"/>
+                    <tabBarItem key="tabBarItem" title="공지방" image="22notice.png" id="hL4-HL-IwT"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CcE-AI-L4K">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -339,11 +339,11 @@
             </objects>
             <point key="canvasLocation" x="1790" y="-493"/>
         </scene>
-        <!--Item-->
+        <!--검색-->
         <scene sceneID="oCw-El-ryD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1Z4-M2-gZw" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="FkT-tk-aOA"/>
+                    <tabBarItem key="tabBarItem" title="검색" image="22search.png" id="FkT-tk-aOA"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="XB7-jw-08Z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -416,6 +416,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="22notice.png" width="22" height="22"/>
+        <image name="22search.png" width="22" height="22"/>
         <image name="Noti_초안_반전" width="900" height="900"/>
     </resources>
 </document>
